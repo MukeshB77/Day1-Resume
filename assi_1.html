@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="icon.jpeg" />
+    <style>
+      * {
+        margin: 0px;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .home {
+        align-content: flex;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        height: auto;
+        width: auto;
+        align-items: center;
+        padding: 20px;
+        font-size: 30px;
+      }
+      .head {
+        font-size: large;
+        background-color: bisque;
+        text-align: center;
+      }
+      .mainimages {
+        display: flex;
+        padding: 20px;
+      }
+      img {
+        padding: 20px;
+      }
+      .subimage {
+        background-color: aquamarine;
+        border-radius: 20px;
+       
+        align-content: center;
+        justify-content: center ;
+        margin: 10px;
+      }
+      .tblcontent{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="home">
+      <div class="head"><h1>Mountains</h1></div>
+
+      <p>This is a new page</p>
+      <div class="mainimages">
+        <div class="subimage">
+          <img
+            src="mountain.jpeg"
+            alt="Sample Image"
+            width="400px"
+            height="200px"
+          />
+          <p style="text-align: center;">Fuji</p>
+        </div>
+        
+        <div class="subimage">
+          <img
+            src="https://www.atlasandboots.com/wp-content/uploads/2019/05/ama-dablam2-most-beautiful-mountains-in-the-world.jpg"
+            alt="Sample Image"
+            width="400px"
+            height="200px"
+          />
+          <p style="text-align: center;">Himalayas</p>
+        </div>
+        <div class="subimage">
+          <img
+            src="https://media.timeout.com/images/106150176/750/562/image.jpg"
+            alt="Sample Image"
+            width="400px"
+            height="200px"
+          />
+          <p style="text-align: center;">CamelBack</p>
+        </div>
+       
+      </div>
+
+      <marquee behavior="scroll" direction="right">This is a mountain</marquee>
+       <a target="new" href="https://en.wikipedia.org/wiki/Mountain"
+          >mountain</a
+        >
+      <button onclick="alert('hello')">hello</button>
+      <div class="tblcontent">
+      <table>
+        <tr>
+          <th>s.no</th>
+          <th>Mountains</th>
+          <th>Location</th>
+          <th>status</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Fugi</td>
+          <td>Japan</td>
+          <td style="color: green;">Approved</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Himalayas</td>
+          <td>India</td>
+          <td style="color: yellow;" >Pending</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Camelback</td>
+          <td>US</td>
+          <td style="color:red">Rejected</td>
+        </tr>
+      </table>
+      </div>
+    </div>
+  </body>
+</html>
